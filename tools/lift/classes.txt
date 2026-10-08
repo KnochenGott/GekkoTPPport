@@ -1,0 +1,35 @@
+# classes.txt 08/10/2026. Component class keys whose static initialiser, creator, object vtables and vtable functions are lifted (docs/DOCUMENTATION.md 5.16, 5.16a).
+# One key per line (hex), '#' starts a comment. lift_gekko.py asks class_scan.py for the addresses. A key that Survive asks for and is missing here shows up in the log as "[ctx] handle for hash".
+# SsdNpc and the components its Setup creates
+0xb567a90fe2c5   # SsdNpc service (creator 0x141073500)
+0x7cffa68e663e
+0x83926388c971
+0x5efffaff98b4
+0x54beef38b3d1
+0x6a8b470636b2
+0xa83ac5d840d8
+0x12c685966df2
+# behaviour container and its six children (0 data setup, 1 action 26, 2 knock-down, 3 AI state machine, 4 melee, 5 movement brain host)
+0x95b893bf9ced
+0x5a750e30ff12
+0x77c6e7e91089
+0x6021b048ebd9
+0xd927cb62da54
+0x81690cb9fb03
+0xa8740e46cd6a
+# components the real service slots create during the Observer setup (nav component a4872172cb1b, event/target helpers, registries)
+0x6ad7632cf97c
+0x666e24552600
+0xa4872172cb1b
+0x08101bad42f4
+0x83521f4485b6
+0x1c1bd6f451b7
+0x724c839dfd8d
+0x39119778cd06
+0x5b10d5d2e138
+0x33a42ae94366
+0xdc3fbd7fe118
+0x68054031f47d
+0x77e1d54ac2b1
+0x651a1306165b
+0xb7c7e4c6e696

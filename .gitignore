@@ -1,0 +1,25 @@
+build/
+__pycache__/
+*.pyc
+*.log
+*.obj
+*.exe
+*.dll
+*.pdb
+*.args
+src/GekkoHook/GekkoSigs.h
+gekko_module.cpp
+research/
+extracted/
+db/
+scratch/
+_scratch/
+gekko_npc_type_record.txt
+
+# lifter output
+src/GekkoHook/GekkoClassInits.h
+
+# assets built by tools/populate_project.py (Survive-derived)
+ProjectFolder/GekkoPort/Assets/
+ProjectFolder/GekkoPort/GameDir/plugins/
+gekko_dll.pftxs
